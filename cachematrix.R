@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
   set <- function(matrix) { #setting the matrix
     m <<- matrix
     i <<- NULL
-  }
+  } 
   
   get <- function() { #get the matrix
     m #return the matrix
